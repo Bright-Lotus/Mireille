@@ -1,11 +1,8 @@
-# Fakeri
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Zelda-Zamora/Fakeri?style=flat-square) ![Discord](https://img.shields.io/discord/972563929836445778?label=discord&?style=flat-square) ![Discord](https://img.shields.io/discord/793370605382664203?label=discord&?style=flat-square) ![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Ffakeri.vercel.app%2F) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Zelda-Zamora/Fakeri?style=flat-square) ![GitHub](https://img.shields.io/github/license/Zelda-Zamora/Fakeri?style=flat-square)
+# Mireille
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Zelda-Zamora/Fakeri?style=flat-square) ![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Ffakeri.vercel.app%2F) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Zelda-Zamora/Fakeri?style=flat-square) [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-This bot will mainly be used for the Event
 
-You can look at the code if you want
-
-You need to have a Firebase Project for the bot to work
+This project uses a [Firebase Firestore Database](https://firebase.google.com/docs/firestore), which you need to have up and running in order for the bot to work.
 
 Set the neccesary keys in a .env file for the bot to connect to the DB:
 
@@ -36,3 +33,12 @@ You can also set the bot version in the .env for display in the /credits command
 ```
 BOT_VERSION=1.0.0
 ```
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License][cc-by-nc-nd].
+
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
+
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg

@@ -1,7 +1,7 @@
 {
-  "name": "fakeri",
+  "name": "mireille",
   "version": "1.0.7",
-  "description": "Discord bot for events and duels",
+  "description": "Discord bot for events.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,8 @@
     "starttest": "nodemon . test"
   },
   "keywords": [],
-  "author": "ZeldaZamora",
-  "license": "AGPL-3.0-or-later",
+  "author": "Bright Lotus",
+  "license": "CC-BY-NC-ND",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@napi-rs/canvas": "^0.1.30",
