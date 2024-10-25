@@ -106,14 +106,23 @@ dist
 # "Notes" file where I save shit I don't want to delete but also want to conserve
 garbage
 
-# JS where I run experiments and shit
+# JS where I run experiments
 asdf.js
 yay.js
 
-# Env (discord token and shit)
+# Env (Discord token and Firebase token)
 .env
 
-# Reference photos for shit
+# Reference photos
 banpick_example.png
 bossQuestUI.png
 example.png
+
+# Yarn Zero Install ignores
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

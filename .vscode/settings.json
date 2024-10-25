@@ -1,0 +1,9 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": "mireille/src/.yarn/sdks",
+  "typescript.tsdk": "mireille/src/.yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

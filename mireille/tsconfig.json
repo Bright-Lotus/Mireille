@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "allowJs": true,
+        "target": "es5",
+        "module": "NodeNext",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "moduleResolution": "NodeNext",
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

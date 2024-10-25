@@ -1,5 +1,5 @@
-const dotenv = require('dotenv');
-dotenv.config();
+import { config as dotenvConfig } from 'dotenv';
+dotenvConfig();
 
 module.exports = {
 	firebaseConfig: {

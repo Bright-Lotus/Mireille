@@ -1,0 +1,50 @@
+{
+  "name": "mireille",
+  "version": "1.0.7",
+  "description": "Discord bot for events.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm ci --omit=dev && node .",
+    "starttest": "nodemon . test"
+  },
+  "keywords": [],
+  "author": "Bright Lotus",
+  "license": "CC-BY-NC-ND-4.0",
+  "type": "module",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@napi-rs/canvas": "^0.1.58",
+    "@types/node": "^22.8.0",
+    "chalk": "^5.3.0",
+    "discord.js": "^14.16.3",
+    "dominant-color": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.13.0",
+    "fast-average-color": "^9.4.0",
+    "fast-average-color-node": "^3.1.0",
+    "ffmpeg": "^0.0.4",
+    "ffprobe-static": "^3.1.0",
+    "figlet": "^1.8.0",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "font-list": "^1.5.1",
+    "image-size": "^1.1.1",
+    "jpeg-js": ">=0.4.4",
+    "minimist": ">=0.2.4",
+    "node-fetch": "^3.3.2",
+    "phin": ">=3.7.1",
+    "split-images": "^1.0.4",
+    "text-from-image": "^1.1.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.11.0"
+  },
+  "packageManager": "yarn@4.5.1"
+}

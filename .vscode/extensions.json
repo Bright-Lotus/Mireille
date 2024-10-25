@@ -4,6 +4,7 @@
         "usernamehw.errorlens",
         "chakrounanas.turbo-console-log",
         "meganrogge.template-string-converter",
-        "seatonjiang.gitmoji-vscode"
+        "seatonjiang.gitmoji-vscode",
+        "arcanis.vscode-zipfs",
     ]
 }

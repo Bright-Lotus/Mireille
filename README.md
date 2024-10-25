@@ -34,6 +34,12 @@ You can also set the bot version in the .env for display in the /credits command
 BOT_VERSION=1.0.0
 ```
 
+## Yarn Zero Install
+
+This project uses Yarn's [Yarn PnP](https://yarnpkg.com/features/pnp) and [offline mirror](https://yarnpkg.com/features/caching#offline-mirror) technology to offer a zero install cloning. Just clone the repo and all the deps will be available.
+
+Remember to download the required SDKs for your IDE: https://yarnpkg.com/getting-started/editor-sdks.
+
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License][cc-by-nc-nd].
 
