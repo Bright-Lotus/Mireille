@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-# "Notes" file where I save shit I don't want to delete but also want to conserve
+# "Notes" file where I save snippets of code I don't want to delete but also want to conserve
 garbage
 
 # JS where I run experiments
@@ -119,10 +119,13 @@ bossQuestUI.png
 example.png
 
 # Yarn Zero Install ignores
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+src/.yarn/*
+!src/.yarn/cache
+!src/.yarn/patches
+!src/.yarn/plugins
+!src/.yarn/releases
+!src/.yarn/sdks
+!src/.yarn/versions
+
+# Build folders
+build/**
