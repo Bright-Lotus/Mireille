@@ -3,7 +3,7 @@ const { EmbedBuilder, ActionRowBuilder, SelectMenuBuilder, Events, bold, undersc
 const { getFirestore, doc, getDocs, collection, getDoc, increment, updateDoc } = require('firebase/firestore');
 const { initializeApp } = require('firebase/app');
 const { firebaseConfig } = require('../firebaseConfig.js');
-const { ErrorEmbed, EventErrors } = require('../errors/errors.js');
+const { ErrorEmbed, EventErrors } = require('../errors/errors.js').default;
 const { Icons } = require('../emums/icons.js');
 const { pagination } = require('../handlers/paginationHandler.js');
 const { Utils } = require('../utils.js');

@@ -1,5 +1,5 @@
 const { Events, EmbedBuilder, userMention, time, TimestampStyles, codeBlock } = require('discord.js');
-const { ErrorEmbed, EventErrors } = require('../errors/errors.js');
+const { ErrorEmbed, EventErrors } = require('../errors/errors.js').default;
 const { getFirestore, doc, getDoc } = require('firebase/firestore');
 const { initializeApp } = require('firebase/app');
 const { firebaseConfig } = require('../firebaseConfig.js');

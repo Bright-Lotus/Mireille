@@ -50,9 +50,6 @@ for (const file of commandFiles) {
 	import(filePath).then((slashCmd: SlashCommand) => {
 		if (Object.values(slashCmd).length > 0) client.commands.set(slashCmd.data.name, slashCmd);
 	});
-	// if (Object.values(command).length > 0) {
-	// 	client.commands.set(command.data.name, command);
-	// }
 }
 
 const eventsPath = path.join(__dirname, 'events');

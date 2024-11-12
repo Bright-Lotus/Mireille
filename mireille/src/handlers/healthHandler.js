@@ -5,7 +5,6 @@ const { firebaseConfig } = require('../firebaseConfig.js');
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// eslint-disable-next-line no-unused-vars
 async function healthManager(action, user, amount, __options) {
     // eslint-disable-next-line no-async-promise-executor
     return new Promise(async (resolve) => {

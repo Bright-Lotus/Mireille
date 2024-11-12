@@ -1,5 +1,5 @@
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-const { EventErrors, ErrorEmbed } = require('../errors/errors.js');
+const { EventErrors, ErrorEmbed } = require('../errors/errors.js').default;
 const { dialogHandler } = require('../handlers/dialogHandler.js');
 
 module.exports = {

@@ -1,13 +1,13 @@
-const { getFirestore, doc, getDoc, updateDoc, arrayRemove, arrayUnion, deleteField, increment } = require('firebase/firestore');
-const { xpManager } = require('./xpHandler.js');
-const { goldManager } = require('./goldHandler.js');
-const { healthManager } = require('./healthHandler.js');
-const { initializeApp } = require('firebase/app');
-const { firebaseConfig } = require('../firebaseConfig.js');
-const { keywordHandler } = require('./keywordHandler.js');
-const { Utils } = require('../utils.js');
-const { formatEmoji, bold } = require('discord.js');
-const { Icons } = require('../emums/icons.js');
+import { getFirestore, doc, getDoc, updateDoc, arrayRemove, arrayUnion, deleteField, increment } from 'firebase/firestore';
+import { xpManager } from './xpHandler.js';
+import { goldManager } from './goldHandler.js';
+import { healthManager } from './healthHandler.js';
+import { initializeApp } from 'firebase/app';
+import { firebaseConfig } from '../firebaseConfig.js';
+import { keywordHandler } from './keywordHandler.js';
+import { Utils } from '../utils.js';
+import { formatEmoji, bold } from 'discord.js';
+import { Icons } from '../emums/icons.js';
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
@@ -74,8 +74,11 @@ async function attack(user, enemy, client, farmChannel) {
                 };
 
                 let lifesteal = '';
+                // Handle the attack of the enemy
                 if (turn == 'enemy') {
+                    // Pass the turn back to the player
                     finalEnemy.turn = 'player';
+                    // Check if the enemy has debuffs and iterate through them
                     if (finalEnemy.debuffs.length > 0) {
                         for (const debuff of finalEnemy.debuffs) {
                             switch (debuff.type) {
@@ -464,4 +467,4 @@ async function attack(user, enemy, client, farmChannel) {
     });
 }
 
-module.exports = { attack };
+export default { attack };

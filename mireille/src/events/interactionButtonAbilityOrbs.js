@@ -1,5 +1,5 @@
 const { inventoryExecute } = require('../commands/inventory.js');
-const { EventErrors, ErrorEmbed } = require('../errors/errors.js');
+const { EventErrors, ErrorEmbed } = require('../errors/errors.js').default;
 const { getFirestore, doc, getDoc } = require('firebase/firestore');
 const { initializeApp } = require('firebase/app');
 const { firebaseConfig } = require('../firebaseConfig.js');

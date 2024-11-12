@@ -3,7 +3,7 @@ const { getFirestore, setDoc, doc, getDoc, increment, updateDoc } = require('fir
 
 const { firebaseConfig } = require('../firebaseConfig.js');
 const { initializeApp } = require('firebase/app');
-const { ErrorEmbed, EventErrors } = require('../errors/errors.js');
+const { ErrorEmbed, EventErrors } = require('../errors/errors.js').default;
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);

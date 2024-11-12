@@ -1,6 +1,6 @@
 const { Events, EmbedBuilder, userMention, roleMention } = require('discord.js');
 const { Colors } = require('../emums/colors');
-const { ErrorEmbed, EventErrors } = require('../errors/errors');
+const { ErrorEmbed, EventErrors } = require('../errors/errors').default;
 // TODO: Probably get this from the database
 const broadcastChannels = ['1032013306631827546', '1049703237336444968', '1056685534526844938', '1056699246109270127'];
 

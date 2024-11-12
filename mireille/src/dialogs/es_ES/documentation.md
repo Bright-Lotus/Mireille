@@ -40,7 +40,7 @@ Each dialog can also have a "ephemeral" property, which will put the entire dial
 
 ### Warning
 The button text can only have 80 characters, if you go over that, the bot will not send the message.
-Since the the option text is the button text, you have to keep that in mind.
+Since the option text is the button text, you have to keep that in mind.
 
 ## Special Functions
 

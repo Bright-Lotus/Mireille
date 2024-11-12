@@ -1,5 +1,5 @@
 const { getDoc, doc, getFirestore, collection, getDocs, updateDoc, increment } = require('firebase/firestore');
-const { ErrorEmbed, EventErrors } = require('../errors/errors.js');
+const { ErrorEmbed, EventErrors } = require('../errors/errors.js').default;
 const { execute } = require('../handlers/shopHandler.js');
 const { initializeApp } = require('firebase/app');
 const { firebaseConfig } = require('../firebaseConfig.js');
